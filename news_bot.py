@@ -6,7 +6,7 @@ import time
 from news_maker import get_last_news
 
 source = "https://vc.ru"
-API_TOKEN = '5150964165:AAEPYDnd_s7DK4ag_4Z9KzARzYnnahH1u-w'
+API_TOKEN = 'TOKEN'
 
 bot = telebot.TeleBot(API_TOKEN)
 telebot.logger.setLevel(logging.DEBUG)
